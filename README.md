@@ -24,11 +24,8 @@ This project implements an RFID-based access control system using an Arduino boa
 * MFRC522 RFID Reader Module
 * DS1302 RTC Module
 * I2C LCD Display (e.g., 16x2 with PCF8574 adapter)
-* Blue LED
-* Green LED
-* Red LED
+* RGB LED Moude
 * Buzzer (passive or active)
-* 3x 220 Ohm resistors (for LEDs)
 * Breadboard
 * Jumper Wires
 * USB-B Cable (for Arduino Uno)
@@ -80,15 +77,15 @@ This project implements an RFID-based access control system using an Arduino boa
 | SDA     | A4 (SDA)        |
 | SCL     | A5 (SCL)        |
 
-**LEDs and Buzzer to Arduino Uno:**
+**LED and Buzzer to Arduino Uno:**
 
-| Component       | Arduino Uno Pin | Resistor |
-| :-------------- | :-------------- | :------- |
-| Blue LED (Anode)| A0              | 220 Ohm  |
-| Green LED (Anode)| A1              | 220 Ohm  |
-| Red LED (Anode) | A2              | 220 Ohm  |
-| Buzzer (+)      | A3              | N/A      |
-| All Cathodes    | GND             | N/A      |
+| Component       | Arduino Uno Pin |
+| :-------------- | :-------------- |
+| RGB LED (Blue)  | A0              |
+| RGB LED (Green) | A1              |
+| RGB LED (Red)   | A2              | 
+| Buzzer (+)      | A3              | 
+| All Cathodes    | GND             | 
 
 ## Installation and Setup
 

@@ -24,7 +24,7 @@ virtuabotixRTC myRTC(6, 7, 8); // Example: Data Pin 6, Clock Pin 7, CS Pin 8
 const int BLUE_LED = A0;    // Blue LED for "waiting for tag" state
 const int GREEN_LED = A1;   // Green LED for "Access Granted"
 const int RED_LED = A2;     // Red LED for "Access Denied"
-const int BUZZER_PIN = A3;  // Buzzer connected to Digital Pin A3
+const int BUZZER_PIN = 4;  // Buzzer connected to Digital Pin A3
 
 // --- MFRC522 Object Initialization ---
 MFRC522 mfrc522(SDA_PIN, RST_PIN);

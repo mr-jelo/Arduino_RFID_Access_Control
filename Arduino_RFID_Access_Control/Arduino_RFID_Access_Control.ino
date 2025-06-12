@@ -21,9 +21,9 @@ virtuabotixRTC myRTC(6, 7, 8); // Example: Data Pin 6, Clock Pin 7, CS Pin 8
 // Connect each LED's anode (long leg) to its respective digital pin
 // via a current-limiting resistor (e.g., 220-330 Ohm).
 // Connect the LED's cathode (short leg) to Arduino GND.
-const int BLUE_LED = A0;    // Blue LED for "waiting for tag" state
+const int BLUE_LED = A2;    // Blue LED for "waiting for tag" state
 const int GREEN_LED = A1;   // Green LED for "Access Granted"
-const int RED_LED = A2;     // Red LED for "Access Denied"
+const int RED_LED = A0;     // Red LED for "Access Denied"
 const int BUZZER_PIN = 4;  // Buzzer connected to Digital Pin A3
 
 // --- MFRC522 Object Initialization ---
